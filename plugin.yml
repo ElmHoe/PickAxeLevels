@@ -1,0 +1,11 @@
+name: PickAxeLevels
+main: uk.co.ElmHoe.PickAxeLevels
+version: 1.0
+description: Pick Axe Leveling
+load: POSTWORLD
+database: false
+softdepend: []
+depend: [HyperCloudUtils]
+loadbefore: []
+prefix: PAL
+author: ElmHoe

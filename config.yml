@@ -1,0 +1,56 @@
+config:
+   messages:
+      lore:
+      - "Blocks Mined: {BLOCKS}"
+      - "Level {LEVEL}/{MAXLEVEL}"
+      - "Blocks Left: {BLOCKSLEFT}"
+      name: "VoidPickAxe : {LEVEL}/{MAXLEVEL}"
+      createName: "VoidPickaxe"
+      levelUp: "You have ranked your PickAxe up to {LEVEL}/{MAXLEVEL} after breaking {BLOCKS} blocks, and received {MONEY}!"
+   levelData:
+      0:
+         blockThreshold: 0
+         repair: false
+         money: 0
+         enchants:
+         - "DURABILITY:3"
+         - "DIG_SPEED:3"
+      1:
+         blockThreshold: 100
+         repair: false
+         money: 1000000
+         enchants:
+         - "DURABILITY:5"
+         - "DIG_SPEED:5"
+      2:
+         blockThreshold: 250
+         repair: false
+         money: 1500000
+         enchants:
+         - "DURABILITY:5"
+         - "DIG_SPEED:5"
+         - "LOOT_BONUS_BLOCKS:3"
+      3:
+         blockThreshold: 500
+         repair: false
+         money: 2500000
+         enchants:
+         - "DURABILITY:7"
+         - "DIG_SPEED:7"
+         - "LOOT_BONUS_BLOCKS:3"
+      4:
+         blockThreshold: 1000
+         repair: false
+         money: 5000000
+         enchants:
+         - "DURABILITY:9"
+         - "DIG_SPEED:9"
+         - "LOOT_BONUS_BLOCKS:4"
+      5:
+         blockThreshold: 2500
+         repair: false
+         money: 7500000
+         enchants:
+         - "DURABILITY:10"
+         - "DIG_SPEED:10"
+         - "LOOT_BONUS_BLOCKS:5"
